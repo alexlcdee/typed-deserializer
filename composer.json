@@ -1,0 +1,27 @@
+{
+  "name": "alexlcdee/typed-deserializer",
+  "description": "",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "AlexLcDee",
+      "email": "info@alexlcdee.ru"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlexLcDee\\TypedDeserializer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AlexLcDee\\TypedDeserializer\\Tests\\": "tests/"
+    }
+  }
+}
